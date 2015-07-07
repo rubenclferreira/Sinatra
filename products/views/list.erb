@@ -1,0 +1,7 @@
+
+<p>Products list:</p>
+	<% @products.each do |product| %> 
+		<p><b>Name:</b> <%= product.name %>
+		<b>Price:</b> <%= product.price %>
+		<b>Brand:</b> <%= product.brand %></p>
+	<% end %>

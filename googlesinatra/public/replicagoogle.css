@@ -1,0 +1,89 @@
+
+
+#container{
+	display: flex;
+	font-family: arial,sans-serif;
+}
+
+.titulopesquisa
+{
+	color: #1a0dab;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#geralesquerda{
+	flex-direction: row;
+}
+
+.resultadodepesquisaladoalado{
+	display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 60px;
+    margin-right: 40px;
+	/*flex-direction: wrap;*/
+	line-height: 1.4;
+}
+
+.emcoluna{
+	display: inline-block;
+	width: 49%;
+
+}
+
+.publicidade{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 360px;
+	padding: 9px 15px 12px;
+  	margin-left: 2px;
+  	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+}
+
+.publicidade div
+{
+	margin-right: 30px;
+
+}
+
+.titulo2
+{
+	font-size: 20px;
+	color: #444444;
+}
+
+.googleplus
+{
+	color: #999999;
+}
+
+p
+{
+	color: #6a6a6a;
+	font-size: 13px;
+}
+
+a
+{
+	font-weight: 14px;
+	color:#006621
+}
+
+body p
+{
+	font-family: arial, sans-serif;
+}
+
+body
+{
+	width: 900px;
+}
+
+.subtitulo
+{
+	font-size: 13px;
+	color: #333333;
+	font-weight: bold;
+}

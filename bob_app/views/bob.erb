@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="/main.css" rel="stylesheet" >
+	<title></title>
+</head>
+	<body>
+			<h1>Bob's Chat</h1>
+
+
+
+			<% if @hellobob %>
+
+			Bob: <%= @hellobob %> 
+				
+			<% end %>
+
+			<form method="GET" action="/">
+				<input name="name">
+				<button>Submit</button>
+			</form>
+
+	</body>
+</html>
+

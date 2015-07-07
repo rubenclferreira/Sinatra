@@ -1,0 +1,7 @@
+<h1>Show</h1>
+<ul>
+	<li> <%= @post %> </li>
+	<% @comments.each do |comment| %>
+	<li> <%= comment.body %></li>
+	 <% end %>
+</ul>
