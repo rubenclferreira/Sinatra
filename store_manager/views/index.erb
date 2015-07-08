@@ -1,0 +1,20 @@
+
+	<h1>Products List:</h1>
+
+	<table class="table table-striped">
+  		<tr>
+
+
+		  <% @products.each do |product| %>
+		  <tr><td><%= product.name %>
+		  <button type="button" class="btn btn-primary"><a href="/show/<%= product.id %>">details</a></button>
+		  <button type="button" class="btn btn-danger"><a href="/remove/<%= product.id %>">remove</a></button>
+		  <button type="button" class="btn btn-warning"><a href="/edit/<%= product.id %>">edit</a></button>
+		  </td></tr>
+		  <% end %>
+		  
+		  </tr>
+	</table>
+	<button><a href="/form">Creat a new product</a></button>
+
+

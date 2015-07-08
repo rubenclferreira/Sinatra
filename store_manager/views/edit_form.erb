@@ -1,0 +1,11 @@
+<form method="GET" action="/update/<%= @products.id %>">
+  <p>Brand</p>
+	<input name="brand" type="text" value="<%= @products.brand %>">
+	<p>Name</p>
+	<input name="name" type="text" value="<%= @products.name %>">
+	<p>Price</p>
+	<input name="price" type="text" value="<%= @products.price %>">
+	<p><input type="submit"></p>
+</form>
+
+<button><a href="/">Go back</a></button>

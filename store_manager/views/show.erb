@@ -1,0 +1,11 @@
+<h1>Product details</h1>
+
+<p><b>ID:</b> <%= @products.id %></p>  
+<p><b>Brand:</b> <%= @products.brand %></p> 
+<p><b>Name:</b> <%= @products.name %></p>
+<p><b>Price:</b> <%= @products.price %></p>
+<button type="button" class="btn btn-danger"><a href="/remove/<%= @products.id %>">remove</a></button>
+<button type="button" class="btn btn-warning"><a href="/edit/<%= @products.id %>">edit</a></button>
+<button><a href="/">Go back</a></button>
+
+
